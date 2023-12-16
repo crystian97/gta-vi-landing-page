@@ -56,6 +56,15 @@ main{
     color: #FAFAFA;
     width: 200px;
 
+}
+.video-player{
+    display: flex;
+    flex-direction: column;
+    color: #FAFAFA;
+}
+.platform-logos{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
     
-
 }
