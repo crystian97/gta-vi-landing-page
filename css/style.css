@@ -1,0 +1,61 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/img/bg.png');
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3.875rem ;
+}
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.details{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:41.25rem ;
+}
+.cta{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5.75rem ;
+    width: 100%;
+    
+}
+.buy-now{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #FAFAFA;
+    height: 60px;
+    padding: 40px;
+    width: 200px
+
+}
+.discover{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #FAFAFA;
+    align-items:center;
+    background-color: transparent;
+    height: 60px;
+    padding: 40px;
+    color: #FAFAFA;
+    width: 200px;
+
+    
+
+}
