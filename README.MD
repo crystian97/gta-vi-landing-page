@@ -1,5 +1,5 @@
 # Landing Page do GTA 6
-![GTA 6](assets/img/cover.jpg)
+![GTA 6](assets/img/cover.jpeg)
 ## Descrição do Projeto
 Este projeto consiste em uma landing page responsiva para o GTA 6. A página foi desenvolvida utilizando HTML, CSS e JavaScript para proporcionar uma experiência interativa e envolvente aos visitantes.
 
