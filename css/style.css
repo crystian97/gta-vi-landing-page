@@ -1,11 +1,16 @@
+
+@media only screen and (min-width: 992px) {
+    /* Estilos para dispositivos móveis */
+body{
+    background-image: url('../assets/img/bg.png');
+    background-size: cover;
+}
 main{
     display: flex;
     flex-direction: column;
-    background-image: url('../assets/img/bg.png');
-    background-size: cover;
-    height: 100vh;
     
-
+    height: 100vh;
+    padding: 1rem;
 }
 
 .header{
@@ -68,3 +73,173 @@ main{
     justify-content: space-around;
     
 }
+
+}
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    body{
+        background-image: url('../assets/img/bg.png');
+        background-size: cover;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        
+        height: 100vh;
+        padding: 1rem;
+    }
+    
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:3.875rem ;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .details{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height:41.25rem ;
+    }
+    .cta{
+        display: flex;
+        justify-content: space-between;
+        margin-top:5.75rem ;
+        width: 100%;
+        
+    }
+    .buy-now{
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        background-color: #FAFAFA;
+        height: 60px;
+        padding: 40px;
+        width: 200px
+    
+    }
+    .discover{
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid #FAFAFA;
+        align-items:center;
+        background-color: transparent;
+        height: 60px;
+        padding: 40px;
+        color: #FAFAFA;
+        width: 200px;
+    
+    }
+    .video-player{
+        display: flex;
+        flex-direction: column;
+        color: #FAFAFA;
+    }
+    .platform-logos{
+        display: flex;
+        width: 200px;
+        justify-content: space-around;
+        
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos móveis */
+    body{
+        background-image: url('../assets/img/gtavi-mob-bg.jpg');
+        background-size: cover;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:3.875rem ;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .details{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: small;
+        margin-bottom: 1rem;
+
+    }
+    .cta{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        align-items: center;
+        margin-top:5.75rem ;
+        width: 100%;
+        
+    }
+    .buy-now{
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        background-color: #FAFAFA;
+        height: 60px;
+        padding: 40px;
+        width: 200px
+    
+    }
+    .discover{
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid #FAFAFA;
+        align-items:center;
+        background-color: transparent;
+        height: 60px;
+        padding: 40px;
+        color: #FAFAFA;
+        width: 200px;
+    
+    }
+    .video-player{
+        display: flex;
+        flex-direction: column;
+        color: #FAFAFA;
+        width: 100%;
+        font-size: medium;
+        
+    }
+   .video-player h2{
+    font-size: small;
+    
+    }
+    .video-player iframe{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .platform-logos{
+        display: flex;
+        width: 200px;
+        justify-content: space-around;
+    }
+  
+  }
