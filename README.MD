@@ -18,4 +18,4 @@ Certifique-se de ter um navegador web moderno instalado para visualizar a págin
 1. Clone ou faça o download do repositório.
 2. Abra o arquivo `index.html` em um navegador web.
 
-## Estrutura do Projeto
+
